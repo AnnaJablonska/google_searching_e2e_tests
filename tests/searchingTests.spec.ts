@@ -40,7 +40,7 @@ test.describe('Testing searching functionality', async () => {
       await page.waitForTimeout(10000);
     }
 
-    //some example of results to check
+    //some examples of results to check
     await expect(searchResultsPage.locators.imagesLink).toBeVisible();
     await expect(page.locator('a h3').first()).toHaveText(
       'Duco: AI Data Automation Software for Financial Markets',
@@ -61,7 +61,7 @@ test.describe('Testing searching functionality', async () => {
       await page.waitForTimeout(13000);
     }
 
-    //some example of results to check
+    //some examples of results to check
     await expect(
       page.getByRole('button', { name: 'Visually searched image' }),
     ).toBeVisible();

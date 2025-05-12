@@ -1,0 +1,22 @@
+{
+  "name": "google_playwright_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "eslint": "^9.26.0"
+  }
+}
